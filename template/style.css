@@ -1,6 +1,13 @@
 a{
 	font color: black;
 	font-family: courier new;
+}
+
+container {
+	margin-top: : 70px;
+
+}
+nav {
 
 }
 
@@ -13,4 +20,8 @@ ul{
 
 .btn {
 	background-color: #f4b011;
+}
+.btn btn-primary {
+	background-color: #f4b011;
+
 }
