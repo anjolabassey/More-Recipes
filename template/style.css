@@ -1,0 +1,25 @@
+nav {
+	font-family: courier;
+	font-weight: bold;
+	}
+
+a {
+	font-color: #f4b011;
+}
+h4 {
+	justify-content: center;
+}
+.btn  {
+	background-color: #f4b011;
+	font-weight: bold;
+}
+.jumbotron {
+	background-colo #f4b011;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+footer {
+	font-size: 12px;
+	padding: 20px 0;
+}
