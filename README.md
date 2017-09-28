@@ -5,40 +5,41 @@ More-Recipes is a platform for users to share new and awesome recipes either ori
 
 
 
-*Users can view various recipes on the application by visiting the app catalog page
-*Users can add recipes to the app, but first the user needs to have/create an account and sign in
-*Authenticated users can do the following on the app:
+##Users can:
+1.view various recipes on the application by visiting the app catalog page
+2.add recipes to the app, but first the user needs to have/create an account and sign in
+##Authenticated users can: 
 *Add a recipe
-*View or modify the added recipe 
-*Delete the  added recipe
-*Retrieve recipes from the catalog
-*Retrieve recipes with the most upvotes
-*Modify a recipe in the catalog, upvote, downvote and favorite.
-*Retrieve favorited recipes from the catalog
-*Add a review for a recipe
+1.View or modify the added recipe 
+2.Delete the  added recipe
+3.Retrieve recipes from the catalog
+4.Retrieve recipes with the most upvotes
+5.Modify a recipe in the catalog, upvote, downvote and favorite.
+6.Retrieve favorited recipes from the catalog
+7.Add a review for a recipe
 
-#Prerequisites
+##Prerequisites
 
-#Installing
-
-
-#Running the tests
+##Installing
 
 
-#Deployment
+##Running the tests
 
 
-#Built With
+##Deployment
 
 
-#Versioning
+##Built With
+
+
+##Versioning
 
 
 
-#Author
+##Author
 Anjolaoluwa Bassey
 
 
-#License
+##License
 
 This project is licensed under the MIT License
