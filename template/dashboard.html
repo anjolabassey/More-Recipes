@@ -21,26 +21,79 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="dasboard.html">Dashboard</a>
+            <a class="nav-link" href="dashboard.html">Dashboard</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="profile.html">Profile</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="favourites.html">My Favourites</a>
+            <a class="nav-link" href="favorites.html">My Favorites</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="categories.html">My categories</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Logout</a>
+            <a class="nav-link" href="index.html">Logout</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </div>
+
+<div class="container">
+  >
+  <img src="./img/banner.jpg" width="350px" id="image-avatar" height="auto" class="img-fluid" alt="">
+  <div style="margin-left: 20px;"></div>
+  <div class="form-group">
+    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+    <small id="fileHelp" class="form-text text-muted">Please select a picture of your recipe</small>
+  </div>
+
   
+  <div class="container.fluid">
+    <div style="margin-top: 50px;"></div>
+    <h5> Add Ingredients</h5>
+    <form class="form-inline">
+      <label class="sr-only" for="inlineFormInput">Ingredient</label>
+      <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Add Ingredient">
+
+
+
+      <div class="col-sm-4">
+        <select class="btn dropdown-toggle" name="quantity" id="quantity">
+          <option value="">Select quantity</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+      <div class="float-right p-3">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+
+    <div class="form-group">
+      <div style="margin-top: 50px;"></div>
+
+      <h5><label for="recipe">Enter Recipe here</label></h5>
+      <textarea class="form-control" id="recipe" rows="5"> </textarea>
+
+      <div class="float-right p-3">
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+
+
+
+
+
 <footer class="footer">
   <div class="container text-center">
     <span class="text-muted">&copy; 2017 More-Recipes</span>
