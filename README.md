@@ -11,8 +11,7 @@ Coveralls [![Coverage Status](https://coveralls.io/repos/github/anjolabassey/Mor
 # More-Recipes
 More-Recipes is a platform for users to share new and awesome recipes either original or not. A a user can post recipes and their recipes can get reviews and votes from other users who explore that recipe. Users can also keep a list of their favorite recipes on the application.
 
-
-
+# Application Features
 
 ## Users can:
 1.view various recipes on the application by visiting the app catalog page
@@ -27,6 +26,18 @@ More-Recipes is a platform for users to share new and awesome recipes either ori
 7.Retrieve favorited recipes from the catalog
 8.Add a review for a recipe
 
+
+## Built With
+* NodeJS
+* Express JS
+* Sequelize
+* PostgreSQL
+* Mocha and chai
+* Html/css and bootstrap framework
+
+
+## Versioning
+
 ## Prerequisites
 
 ## Installing
@@ -36,12 +47,6 @@ More-Recipes is a platform for users to share new and awesome recipes either ori
 
 
 ## Deployment
-
-
-## Built With
-
-
-## Versioning
 
 ## Author
 Anjolaoluwa Bassey
