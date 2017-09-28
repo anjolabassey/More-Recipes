@@ -21,27 +21,87 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="dasboard.html">Dashboard</a>
+            <a class="nav-link" href="dashboard.html">Dashboard</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="profile.html">Profile</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="favourites.html">My Favourites</a>
+            <a class="nav-link" href="favorites.html">My Favorites</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="categories.html">My categories</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Logout</a>
+            <a class="nav-link" href="index.html">Logout</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </div>
+
+
+  <div class="container-fluid">
+    <div class="col-md-6 mr-auto p-5 add_recipe-card">
+      <img src="./img/banner.jpg" width="350px" id="image-avatar" height="auto" class="img-fluid" alt="">
+    </div>
+    <div style="margin-left: 30px;">
+      <div class="container-fluid">
+        <div class="form-group">
+      <label for="exampleInputFile"></label>
+      <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+      <small id="fileHelp" class="form-text text-muted">Please select a profile picture</small>
+    </div>
+  </div>
+
+<div class="container-fluid justify-content">
+<div class="col-12 col-sm-8 col-md-8 col-lg-8 p-5 text-center">
+  <h1 class="text-center">User Information</h1>
+  
+  <form class="mt-15">
+    <div class="form-group text-">
+      <input type="email" class="form-control" id="inputEmail1"
+      aria-describedby="emailHelp" placeholder="Email" value="ajb@yahoo.com" >
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="inputUserName"
+      aria-describedby="emailHelp" placeholder="Username" value="jjola" >
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" id="inputUserame"
+      aria-describedby="emailHelp" placeholder="Username">
+    </div>
+
+    <button type="submit" class="btn btn-outline-primary">Update</button>
+
+  </form>
+
+  <div class="row justify-center">
+   <div class="col-4 col-md-4 col-sm-4"><h5>Change Password</h5></div>
+   <div class="col-4 col-md-4 col-sm-4"><hr></div>
+ </div>
+
+ <form class="mt-20">
+  <div class="form-group">
+    <input type="password" class="form-control" id="inputPassword"
+    placeholder="Current Password">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" id="inputPassword2"
+    placeholder="New Password">
+  </div>
+  <div class="form-group">
+    <input type="password" class="form-control" id="inputPassword3"
+    placeholder="Confirm New Password">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</div>
+
 <footer class="footer">
-  <div class="container">
+  <div class="container-fluid text-center">
     <span class="text-muted">&copy; 2017 More-Recipes</span>
   </div>
 </footer>

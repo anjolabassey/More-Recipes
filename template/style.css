@@ -14,12 +14,20 @@ h4 {
 	font-weight: bold;
 }
 .jumbotron {
-	background-colo #f4b011;
+	background-image: url("/img/ban2.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+
 }
 footer {
 	font-size: 12px;
 	padding: 20px 0;
+}
+
+.container {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
