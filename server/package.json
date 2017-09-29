@@ -4,11 +4,11 @@
   "description": "server side to power app",
   "main": "app.js",
   "scripts": {
-    "start":"babel-node ./server/app.js --presets es2015,stage-2",
+    "start":"nodemon lib/app.js --exec babel-node --presets es2015,stage-2",
     "build": "babel lib -d dist --presets es2015,stage-2",
-    "serve": "node dist/index.js",
-    "lint": "eslint index.js",
-    "test": "mocha server/tests/*.test.js --compilers js:babel-register"
+    "serve": "node dist/app.js",
+    "lint": "eslint server",
+    "test": "mocha --compilers js:babel-register"
   },
   "author": "Anjola Bassey",
   "license": "ISC",

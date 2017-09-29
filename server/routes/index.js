@@ -1,7 +1,8 @@
 import express from 'express';
+import recipe from './recipes';
 
 const router = express.Router();
 
-router.use('/recipes/', require('./recipes'));
+router.use('/recipes', recipe);
 
-module.exports = router;
+export default router;
