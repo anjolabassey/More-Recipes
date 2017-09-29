@@ -92,6 +92,19 @@ router.get('/', (request, response) => {
 });
 
 // Add review
+router.post('/:recipeid/reviews', (request, response) => {
+  for (let i = 0; i < global.recipes.length; i += 1) {
+    if (global.recipes[i].id > parseInt(request.params.recipesid, 10)) {
+      global.recipes[i].reviews = request.body.reviews;
+      return response.json({
+        message: 'Review posted successful',
+        error: false
+      });
+    }
+  }
+});
+
 // Get just recipe with most upvotes
+
 
 export default router;
